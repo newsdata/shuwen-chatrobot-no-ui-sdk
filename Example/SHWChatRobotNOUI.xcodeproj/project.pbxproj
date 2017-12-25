@@ -66,7 +66,7 @@
 		DD913E851FF0F33A00CC349F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DD913E871FF0F34200CC349F /* SHWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHWViewController.h; sourceTree = "<group>"; };
 		DD913E881FF0F34200CC349F /* SHWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHWViewController.m; sourceTree = "<group>"; };
-		DF979278807147C0F2E81AFA /* SHWChatRobWithoutUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHWChatRobWithoutUI.podspec; path = ../SHWChatRobWithoutUI.podspec; sourceTree = "<group>"; };
+		DF979278807147C0F2E81AFA /* SHWChatRobotNOUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHWChatRobotNOUI.podspec; path = ../SHWChatRobotNOUI.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,7 +178,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				DF979278807147C0F2E81AFA /* SHWChatRobWithoutUI.podspec */,
+				DF979278807147C0F2E81AFA /* SHWChatRobotNOUI.podspec */,
 				0ED5DB6ED0D2DEDC7D9790AE /* README.md */,
 				A8A3F3447CBE3AF2BB6DB0A7 /* LICENSE */,
 			);

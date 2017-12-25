@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'SHWChatRobotNOUI_Example' do
-  pod 'SHWChatRobWithoutUI', :path => '../'
+  pod 'SHWChatRobotNOUI', :path => '../'
 
   target 'SHWChatRobotNOUI_Tests' do
     inherit! :search_paths

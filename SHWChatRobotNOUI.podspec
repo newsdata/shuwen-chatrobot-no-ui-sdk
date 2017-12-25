@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-    s.name             = 'SHWChatRobWithoutUI'
+    s.name             = 'SHWChatRobotNOUI'
     s.version          = '1.0.1'
     s.summary          = 'iOS聊天机器人无UI SDK'
     s.homepage         = 'https://github.com/newsdata/shuwen-chatrobot-no-ui-sdk'
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
     # TODO: 本地 source
     s.source           = { :git => 'git@github.com:newsdata/shuwen-chatrobot-no-ui-sdk.git', :tag => s.version.to_s}
-    s.vendored_framework = "SHWChatRobotNOUI/Classes/SHWChatRobWithoutUI.framework"
+    s.vendored_framework = "SHWChatRobotNOUI/Classes/SHWChatRobWithoutUISDK.framework"
 
     s.requires_arc = true
     s.frameworks = 'CoreLocation', 'SystemConfiguration','CoreFoundation','Security'
