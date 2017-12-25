@@ -15,8 +15,7 @@ Pod::Spec.new do |s|
     s.author           = { 'yangyang' => 'yangyang@shuwen.com' }
     s.ios.deployment_target = '8.0'
 
-    # TODO: 本地 source
-    s.source           = { :git => 'git@github.com:newsdata/shuwen-chatrobot-no-ui-sdk.git', :tag => s.version.to_s}
+    s.source           = { :git => 'https://github.com/newsdata/shuwen-chatrobot-no-ui-sdk.git', :tag => s.version.to_s}
     s.vendored_framework = "SHWChatRobotNOUI/Classes/SHWChatRobWithoutUI.framework"
 
     s.requires_arc = true
