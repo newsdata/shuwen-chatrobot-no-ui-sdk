@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
     s.vendored_framework = "SHWChatRobotNOUI/Classes/SHWChatRobWithoutUI.framework"
 
     s.requires_arc = true
+    s.frameworks = 'CoreLocation', 'SystemConfiguration','CoreFoundation','Security'
     # dependencys
     s.dependency 'UTDID', '~> 1.0.0'
 end
