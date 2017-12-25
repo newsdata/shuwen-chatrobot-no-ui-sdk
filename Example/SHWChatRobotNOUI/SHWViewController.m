@@ -21,7 +21,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//    [SHWCRPublicConfig setSWAppKey:SHW_CHAT_ROB_ACCESS_KEY secretKey:SHW_CHAT_ROB_SECRET_KEY];
+    [SHWCRPublicConfig setSWAppKey:SHW_CHAT_ROB_ACCESS_KEY secretKey:SHW_CHAT_ROB_SECRET_KEY];
+    
+    UITapGestureRecognizer *tap =[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(buttonClicked:)];
+    [self.view addGestureRecognizer:tap];
+}
+
+- (void)buttonClicked:(UITapGestureRecognizer*)tap {
+    [self.txtView resignFirstResponder];
 }
 
 - (IBAction)askClicked:(id)sender {
