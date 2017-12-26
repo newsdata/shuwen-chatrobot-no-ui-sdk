@@ -1,4 +1,4 @@
-# iOS聊天机器人无UI SDK 接入指南(v1.0.1)
+# iOS聊天机器人无UI SDK 接入指南(v1.0.2)
 
 自然语言服务SDK，目前用于英文和中文的ASR和TTS.
 
@@ -10,7 +10,7 @@ Deploy target : iOS 8.0.
 
 ```ruby
 target 'YourProject' do
-pod 'SHWChatRobWithoutUI', '~> 1.0.1'
+pod 'SHWChatRobWithoutUI', '~> 1.0.2'
 end
 ```
 
