@@ -1,0 +1,6 @@
+framework module SHWChatRob {
+  umbrella header "SHWChatRob.h"
+
+  export *
+  module * { export * }
+}

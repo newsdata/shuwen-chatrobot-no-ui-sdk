@@ -1,6 +1,4 @@
-# iOS聊天机器人无UI SDK 接入指南(v1.0.2)
-
-自然语言服务SDK，目前用于英文和中文的ASR和TTS.
+# iOS聊天机器人SDK 接入指南(v1.0.0)
 
 Deploy target : iOS 8.0.
 
@@ -10,7 +8,7 @@ Deploy target : iOS 8.0.
 
 ```ruby
 target 'YourProject' do
-pod 'SHWChatRobWithoutUI', '~> 1.0.2'
+pod 'SHWChatRobSDK', '~> 1.0.2'
 end
 ```
 
@@ -50,9 +48,9 @@ appKey值可从新华智云接口人获取（网站建设中，目前请联系�
 ## 4 其它
 
 项目使用了http协议，所以需要适配
-在`Info.plist`中添加`NSAppTransportSecurity`类型`Dictionary`。
-在`NSAppTransportSecurity`下添加`NSAllowsArbitraryLoads`类型`Boolean`,值设为`YES`。
-将 `Build setting` 下 `Build Options` 中的`Enable Bitcode` 置为 `NO`。
+- 在`Info.plist`中添加`NSAppTransportSecurity`类型`Dictionary`。
+- 在`NSAppTransportSecurity`下添加`NSAllowsArbitraryLoads`类型`Boolean`,值设为`YES`。
+- 将 `Build setting` 下 `Build Options` 中的`Enable Bitcode` 置为 `NO`。
 
 ## 5 错误码
 

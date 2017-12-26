@@ -10,7 +10,7 @@
 #define SHW_CHAT_ROB_SECRET_KEY @""
 
 #import "SHWViewController.h"
-#import <SHWChatRobWithoutUI/SHWChatRobWithoutUI.h>
+#import <SHWChatRob/SHWChatRob.h>
 @interface SHWViewController ()
 @property (weak, nonatomic) IBOutlet UITextView *txtView;
 

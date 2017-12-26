@@ -1,6 +1,0 @@
-framework module SHWChatRobWithoutUI {
-  umbrella header "SHWChatRobWithoutUI.h"
-
-  export *
-  module * { export * }
-}

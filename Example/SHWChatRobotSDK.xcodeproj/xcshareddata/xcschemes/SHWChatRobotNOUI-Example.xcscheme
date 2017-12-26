@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "SHWChatRobotNOUI_Example.app"
-               BlueprintName = "SHWChatRobotNOUI_Example"
-               ReferencedContainer = "container:SHWChatRobotNOUI.xcodeproj">
+               BuildableName = "SHWChatRobotSDK_Example.app"
+               BlueprintName = "SHWChatRobotSDK_Example"
+               ReferencedContainer = "container:SHWChatRobotSDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -33,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "SHWChatRobotNOUI_Tests.xctest"
-               BlueprintName = "SHWChatRobotNOUI_Tests"
-               ReferencedContainer = "container:SHWChatRobotNOUI.xcodeproj">
+               BuildableName = "SHWChatRobotSDK_Tests.xctest"
+               BlueprintName = "SHWChatRobotSDK_Tests"
+               ReferencedContainer = "container:SHWChatRobotSDK.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "SHWChatRobotNOUI_Example.app"
-            BlueprintName = "SHWChatRobotNOUI_Example"
-            ReferencedContainer = "container:SHWChatRobotNOUI.xcodeproj">
+            BuildableName = "SHWChatRobotSDK_Example.app"
+            BlueprintName = "SHWChatRobotSDK_Example"
+            ReferencedContainer = "container:SHWChatRobotSDK.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,6 +56,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -66,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "SHWChatRobotNOUI_Example.app"
-            BlueprintName = "SHWChatRobotNOUI_Example"
-            ReferencedContainer = "container:SHWChatRobotNOUI.xcodeproj">
+            BuildableName = "SHWChatRobotSDK_Example.app"
+            BlueprintName = "SHWChatRobotSDK_Example"
+            ReferencedContainer = "container:SHWChatRobotSDK.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +87,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "SHWChatRobotNOUI_Example.app"
-            BlueprintName = "SHWChatRobotNOUI_Example"
-            ReferencedContainer = "container:SHWChatRobotNOUI.xcodeproj">
+            BuildableName = "SHWChatRobotSDK_Example.app"
+            BlueprintName = "SHWChatRobotSDK_Example"
+            ReferencedContainer = "container:SHWChatRobotSDK.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
