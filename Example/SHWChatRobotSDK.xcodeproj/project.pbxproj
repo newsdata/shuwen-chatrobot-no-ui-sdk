@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E50731BAC3CCF74AFF1E795 /* Pods_SHWChatRobotSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0AA2B7209CCE017B951590 /* Pods_SHWChatRobotSDK_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +20,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		6220401311718FE5D367AE5E /* Pods_SHWChatRobotSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1545EF71CD7BEF4C5C070DEC /* Pods_SHWChatRobotSDK_Example.framework */; };
-		6548C2A9382930251ED2035D /* Pods_SHWChatRobotNOUI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3278691B153EB0169E9324A9 /* Pods_SHWChatRobotNOUI_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		C22F96F76EAFA3E2CD2A137E /* Pods_SHWChatRobotNOUI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE225584FA86971F90724E3F /* Pods_SHWChatRobotNOUI_Example.framework */; };
+		AB88ED5FB0955732D34A2F9E /* Pods_SHWChatRobotSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0AA2B7209CCE017B951590 /* Pods_SHWChatRobotSDK_Tests.framework */; };
 		DD913E861FF0F33A00CC349F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD913E851FF0F33A00CC349F /* Main.storyboard */; };
 		DD913E891FF0F34200CC349F /* SHWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD913E881FF0F34200CC349F /* SHWViewController.m */; };
 /* End PBXBuildFile section */
@@ -40,9 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0ED5DB6ED0D2DEDC7D9790AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		11E0F981EEAD1A9F2C9923C0 /* Pods-SHWChatRobotNOUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWChatRobotNOUI_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHWChatRobotNOUI_Tests/Pods-SHWChatRobotNOUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1545EF71CD7BEF4C5C070DEC /* Pods_SHWChatRobotSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHWChatRobotSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3278691B153EB0169E9324A9 /* Pods_SHWChatRobotNOUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHWChatRobotNOUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		439D8E5B81F8990B2B5215CE /* Pods-SHWChatRobotSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWChatRobotSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHWChatRobotSDK_Tests/Pods-SHWChatRobotSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SHWChatRobotSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHWChatRobotSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,15 +58,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		827378B2CD84A7873701865D /* Pods-SHWChatRobotNOUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWChatRobotNOUI_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHWChatRobotNOUI_Example/Pods-SHWChatRobotNOUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		877F25BA388CE072CCD7E814 /* Pods-SHWChatRobotSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWChatRobotSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHWChatRobotSDK_Example/Pods-SHWChatRobotSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A19E0D7C6BA983D7C02BE058 /* Pods-SHWChatRobotSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWChatRobotSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHWChatRobotSDK_Tests/Pods-SHWChatRobotSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A8A3F3447CBE3AF2BB6DB0A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AF912A6431F1E715CDB62A00 /* Pods-SHWChatRobotSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWChatRobotSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHWChatRobotSDK_Example/Pods-SHWChatRobotSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BA09EFCB462A72AB805608F9 /* Pods-SHWChatRobotNOUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWChatRobotNOUI_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHWChatRobotNOUI_Tests/Pods-SHWChatRobotNOUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BB0AA2B7209CCE017B951590 /* Pods_SHWChatRobotSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHWChatRobotSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFA5AF76F4D7D9A818B54DA4 /* Pods-SHWChatRobotNOUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHWChatRobotNOUI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHWChatRobotNOUI_Example/Pods-SHWChatRobotNOUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CE225584FA86971F90724E3F /* Pods_SHWChatRobotNOUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHWChatRobotNOUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD913E851FF0F33A00CC349F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DD913E871FF0F34200CC349F /* SHWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHWViewController.h; sourceTree = "<group>"; };
 		DD913E881FF0F34200CC349F /* SHWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHWViewController.m; sourceTree = "<group>"; };
@@ -85,7 +77,6 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				C22F96F76EAFA3E2CD2A137E /* Pods_SHWChatRobotNOUI_Example.framework in Frameworks */,
 				6220401311718FE5D367AE5E /* Pods_SHWChatRobotSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,8 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				6548C2A9382930251ED2035D /* Pods_SHWChatRobotNOUI_Tests.framework in Frameworks */,
-				3E50731BAC3CCF74AFF1E795 /* Pods_SHWChatRobotSDK_Tests.framework in Frameworks */,
+				AB88ED5FB0955732D34A2F9E /* Pods_SHWChatRobotSDK_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,8 +123,6 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				CE225584FA86971F90724E3F /* Pods_SHWChatRobotNOUI_Example.framework */,
-				3278691B153EB0169E9324A9 /* Pods_SHWChatRobotNOUI_Tests.framework */,
 				1545EF71CD7BEF4C5C070DEC /* Pods_SHWChatRobotSDK_Example.framework */,
 				BB0AA2B7209CCE017B951590 /* Pods_SHWChatRobotSDK_Tests.framework */,
 			);
@@ -200,10 +188,6 @@
 		F5CBDD074B8B4D918AB3D619 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BFA5AF76F4D7D9A818B54DA4 /* Pods-SHWChatRobotNOUI_Example.debug.xcconfig */,
-				827378B2CD84A7873701865D /* Pods-SHWChatRobotNOUI_Example.release.xcconfig */,
-				11E0F981EEAD1A9F2C9923C0 /* Pods-SHWChatRobotNOUI_Tests.debug.xcconfig */,
-				BA09EFCB462A72AB805608F9 /* Pods-SHWChatRobotNOUI_Tests.release.xcconfig */,
 				877F25BA388CE072CCD7E814 /* Pods-SHWChatRobotSDK_Example.debug.xcconfig */,
 				AF912A6431F1E715CDB62A00 /* Pods-SHWChatRobotSDK_Example.release.xcconfig */,
 				439D8E5B81F8990B2B5215CE /* Pods-SHWChatRobotSDK_Tests.debug.xcconfig */,

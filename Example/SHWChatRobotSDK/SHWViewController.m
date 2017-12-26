@@ -1,6 +1,6 @@
 //
 //  SWCViewController.m
-//  SHWChatRobWithoutUI
+//  SHWChatRobotSDK
 //
 //  Created by yayang on 12/14/2017.
 //  Copyright (c) 2017 yayang. All rights reserved.
@@ -11,6 +11,7 @@
 
 #import "SHWViewController.h"
 #import <SHWChatRob/SHWChatRob.h>
+
 @interface SHWViewController ()
 @property (weak, nonatomic) IBOutlet UITextView *txtView;
 

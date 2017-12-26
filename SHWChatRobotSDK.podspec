@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint SHWChatRobotNOUI.podspec' to ensure this is a
+# Be sure to run `pod lib lint SHWChatRobotSDK.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'
 
     s.source           = { :git => 'git@github.com:newsdata/shuwen-chatrobot-sdk.git', :tag => s.version.to_s}
-    s.vendored_framework = "SHWChatRobotNOUI/Classes/SHWChatRobWithoutUI.framework"
+    s.vendored_framework = "SHWChatRobotSDK/Classes/SHWChatRob.framework"
 
     s.requires_arc = true
     s.frameworks = 'CoreLocation', 'SystemConfiguration','CoreFoundation','Security'

@@ -1,6 +1,6 @@
 //
 //  SWCViewController.h
-//  SHWChatRobWithoutUI
+//  SHWChatRobotSDK
 //
 //  Created by yayang on 12/14/2017.
 //  Copyright (c) 2017 yayang. All rights reserved.

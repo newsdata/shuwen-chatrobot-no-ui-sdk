@@ -1,6 +1,6 @@
 //
 //  main.m
-//  SHWChatRobotNOUI
+//  SHWChatRobotSDK
 //
 //  Created by yayang on 12/20/2017.
 //  Copyright (c) 2017 yayang. All rights reserved.
