@@ -27,7 +27,7 @@ appKey值可从新华智云接口人获取（网站建设中，目前请联系�
 ### 3.1 设置AppKey和AppSecret
 
 ```Objective-C
-[SHWCRPublicConfig setSWAppKey:@“Your_APPKEY” secretKey:@“Your_APPSECRET”];
+[SHWCRPublicConfig setSWAppKey:@"Your_APPKEY" secretKey:@"Your_APPSECRET"];
 ```
 
 ### 3.2 提问接口
