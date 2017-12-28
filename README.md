@@ -1,4 +1,4 @@
-# iOS聊天机器人SDK 接入指南(v1.0.1)
+# iOS聊天机器人SDK 接入指南(v1.0.2)
 
 Deploy target : iOS 8.0.
 
@@ -8,7 +8,7 @@ Deploy target : iOS 8.0.
 
 ```ruby
 target 'YourProject' do
-pod 'SHWChatRobotSDK', '~> 1.0.1'
+pod 'SHWChatRobotSDK', '~> 1.0.2'
 end
 ```
 
@@ -42,7 +42,7 @@ appKey值可从新华智云接口人获取（网站建设中，目前请联系�
 *    @param     question     用户问句
 *    @param     completionHandler     包含服务器返回结果result的回调block
 */
-+ (void)askQuestion:(NSString *)question callback:(void (^)(NSArray <NSDictionary*>*result, NSString *clientErrMsg, NSInteger clientCode))completionHandler;
++ (void)askQuestion:(NSString *)question callback:(void (^)(NSDictionary *result, NSString *clientErrMsg, NSInteger clientCode))completionHandler;
 ```
 
 ## 4 其它

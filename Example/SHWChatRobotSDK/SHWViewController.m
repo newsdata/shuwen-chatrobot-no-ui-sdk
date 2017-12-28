@@ -33,21 +33,10 @@
 }
 
 - (IBAction)askClicked:(id)sender {
-    [SHWCRQuestionService askQuestion:@"习近平是谁" callback:^(NSArray<NSDictionary *> *result, NSString *clientErrMsg, NSInteger clientCode) {
+    [SHWCRQuestionService askQuestion:@"习近平是谁" callback:^(NSDictionary *result, NSString *clientErrMsg, NSInteger clientCode) {
         NSLog(@"clientCode %ld", clientCode);
         self.txtView.text = [NSString stringWithFormat:@"question, response data %@, msg %@, code %ld", result, clientErrMsg, clientCode];
     }];
 }
-
-- (IBAction)recommendClicked:(id)sender {
-//    [SHWCRQuestionService fetchRecommandWithQuestion:@"习近平是谁" scene:SWC_SCENE_CHAT count:10 callback:^(NSArray<NSDictionary *> *result, NSString *clientErrMsg, NSInteger clientCode) {
-//        self.txtView.text = [NSString stringWithFormat:@"recommand, response data %@, msg %@, code %ld", result, clientErrMsg, clientCode];
-//    }];
-}
-
-- (IBAction)newsClickClicked:(id)sender {
-//    [SHWCRLogService newsClicked:@"123"];
-}
-
 
 @end
