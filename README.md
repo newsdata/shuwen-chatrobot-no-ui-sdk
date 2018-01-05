@@ -1,4 +1,4 @@
-# iOS聊天机器人SDK 接入指南(v1.0.2)
+# iOS 智能会话SDK 接入指南(v1.0.2)
 
 Deploy target : iOS 8.0.
 
