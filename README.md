@@ -1,4 +1,4 @@
-# iOS 智能会话SDK 接入指南(v1.0.2)
+# iOS 智能会话SDK 接入指南(v1.0.3)
 
 Deploy target : iOS 8.0.
 
@@ -27,6 +27,8 @@ appKey值可从新华智云接口人获取（网站建设中，目前请联系�
 ### 3.1 设置AppKey和AppSecret
 
 ```Objective-C
+//选择是否使用测试环境。默认为NO，使用正式环境。
+[SHWCRPublicConfig setIsTestEnvironment:YES];
 [SHWCRPublicConfig setSWAppKey:@"Your_APPKEY" secretKey:@"Your_APPSECRET"];
 ```
 
