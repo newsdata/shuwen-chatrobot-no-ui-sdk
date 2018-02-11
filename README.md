@@ -8,7 +8,7 @@ Deploy target : iOS 8.0.
 
 ```ruby
 target 'YourProject' do
-pod 'SHWChatRobotSDK', '~> 1.0.2'
+pod 'SHWChatRobotSDK', '~> 1.0.3'
 end
 ```
 
