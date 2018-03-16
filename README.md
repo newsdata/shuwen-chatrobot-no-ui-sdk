@@ -1,4 +1,4 @@
-# iOS 智能会话SDK 接入指南(v1.0.3)
+# iOS 智能会话SDK 接入指南(v1.0.4)
 
 Deploy target : iOS 8.0.
 
@@ -8,7 +8,7 @@ Deploy target : iOS 8.0.
 
 ```ruby
 target 'YourProject' do
-pod 'SHWChatRobotSDK', '~> 1.0.3'
+pod 'SHWChatRobotSDK', '~> 1.0.4'
 end
 ```
 
@@ -48,6 +48,7 @@ appKey值可从新华智云接口人获取（网站建设中，目前请联系�
 ```
 
 ## 4 其它
+项目使用了巴吉度，请参考[接入文档](https://github.com/newsdata/shuwen-analytics-sdk)
 
 项目使用了http协议，所以需要适配
 - 在`Info.plist`中添加`NSAppTransportSecurity`类型`Dictionary`。

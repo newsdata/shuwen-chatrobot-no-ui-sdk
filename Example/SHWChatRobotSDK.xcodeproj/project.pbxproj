@@ -321,12 +321,12 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SHWChatRobotNOUI_Example/Pods-SHWChatRobotNOUI_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SHWChatRobotNOUI/SHWChatRobotNOUI.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-SHWChatRobotSDK_Example/Pods-SHWChatRobotSDK_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SHWChatRobotNOUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

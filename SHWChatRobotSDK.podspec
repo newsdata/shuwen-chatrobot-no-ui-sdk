@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'SHWChatRobotSDK'
-    s.version          = '1.0.3'
+    s.version          = '1.0.4'
     s.summary          = 'iOS聊天机器人无UI SDK'
     s.homepage         = 'https://github.com/newsdata/shuwen-chatrobot-sdk'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
     s.requires_arc = true
     s.frameworks = 'CoreLocation', 'SystemConfiguration','CoreFoundation','Security'
     # dependencys
-    s.dependency 'UTDID', '~> 1.0.0'
+    s.dependency 'SHWAnalyticsSDK', '~> 1.1.5'
 end
