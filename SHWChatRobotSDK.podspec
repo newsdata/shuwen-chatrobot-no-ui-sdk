@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'SHWChatRobotSDK'
-    s.version          = '1.0.5'
+    s.version          = '1.0.6'
     s.summary          = 'iOS聊天机器人无UI SDK'
     s.homepage         = 'https://github.com/newsdata/shuwen-chatrobot-sdk'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }

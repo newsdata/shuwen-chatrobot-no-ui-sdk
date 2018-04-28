@@ -1,4 +1,4 @@
-# iOS 智能会话SDK 接入指南(v1.0.5)
+# iOS 智能会话SDK 接入指南(v1.0.6)
 
 Deploy target : iOS 8.0.
 
@@ -8,7 +8,7 @@ Deploy target : iOS 8.0.
 
 ```ruby
 target 'YourProject' do
-pod 'SHWChatRobotSDK', '~> 1.0.5'
+pod 'SHWChatRobotSDK', '~> 1.0.6'
 end
 ```
 
