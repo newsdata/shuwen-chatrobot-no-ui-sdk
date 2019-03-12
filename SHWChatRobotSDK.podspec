@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |s|
     s.name             = 'SHWChatRobotSDK'
-    s.version          = '1.0.6'
+    s.version          = '1.0.7'
     s.summary          = 'iOS聊天机器人无UI SDK'
     s.homepage         = 'https://github.com/newsdata/shuwen-chatrobot-sdk'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'yangyang' => 'yangyang@shuwen.com' }
+    s.author           = { 'yangyang' => 'yangyang@shuwen.com' , 'yehao' => 'yehao@shuwen.com' }
     s.ios.deployment_target = '8.0'
 
     s.source           = { :git => 'https://github.com/newsdata/shuwen-chatrobot-sdk.git', :tag => s.version.to_s}
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
     s.requires_arc = true
     s.frameworks = 'CoreLocation', 'SystemConfiguration','CoreFoundation','Security'
     # dependencys
-    s.dependency 'SHWAnalyticsSDK', '~> 1.1.8'
+    s.dependency 'SHWAnalyticsSDK', '~> 1.2'
 end
