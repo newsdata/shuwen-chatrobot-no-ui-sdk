@@ -1,0 +1,31 @@
+PODS:
+  - SAMKeychain (1.5.2)
+  - SHWAnalyticsSDK (1.2.2):
+    - SAMKeychain (= 1.5.2)
+    - UTDID (= 1.0.0)
+  - SHWChatRobotSDK (1.0.8):
+    - SHWAnalyticsSDK (~> 1.2)
+  - UTDID (1.0.0)
+
+DEPENDENCIES:
+  - SHWChatRobotSDK (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SAMKeychain
+    - SHWAnalyticsSDK
+    - UTDID
+
+EXTERNAL SOURCES:
+  SHWChatRobotSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SAMKeychain: 1865333198217411f35327e8da61b43de79b635b
+  SHWAnalyticsSDK: 5141b55cbde6cb399c362cf0cd62021dbdfee0a0
+  SHWChatRobotSDK: d8bed040c63d1c5da994a139d5a546db46cdd144
+  UTDID: 05c4737c8cf5c210e86d0235570816ed00e023e8
+
+PODFILE CHECKSUM: e892907fb28e21143c62d09e0459b5475a7a5ff0
+
+COCOAPODS: 1.7.4
