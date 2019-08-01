@@ -1,4 +1,4 @@
-# iOS 智能会话SDK 接入指南(v1.0.7)
+# iOS 智能会话SDK 接入指南(v1.0.8)
 
 Deploy target : iOS 8.0.
 
@@ -8,7 +8,7 @@ Deploy target : iOS 8.0.
 
 ```ruby
 target 'YourProject' do
-pod 'SHWChatRobotSDK', '~> 1.0.7'
+pod 'SHWChatRobotSDK', '~> 1.0.8'
 end
 ```
 
@@ -72,4 +72,8 @@ appKey值可从新华智云接口人获取（网站建设中，目前请联系�
 
 - 更新依赖的巴吉度版本
 
+
+### v1.0.8
+
+- 更新测试环境接口地址
 
